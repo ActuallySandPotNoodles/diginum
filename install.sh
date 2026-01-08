@@ -3,12 +3,12 @@ if [[ $EUID -ne 0 ]]; then
    exit 1
 fi
 if [[ "$ARCH" == x86_64*]]; then
-wget [GITHUB] -O /usr/bin/diginum
-wget [SETPLAT] -O /usr/bin/sand-setplat
+wget https://github.com/ActuallySandPotNoodles/diginum/releases/download/Reease-1.0.0/diginum -O /usr/bin/diginum
+wget https://github.com/ActuallySandPotNoodles/diginum/releases/download/Reease-1.0.0/sand-setplat -O /usr/bin/sand-setplat
 fi
 if [[ "$ARCH" == aarch64*]]; then
-wget [GITHUB] -O /usr/bin/diginum
-wget [SETPLAT] -O /usr/bin/sand-setplat
+wget https://github.com/ActuallySandPotNoodles/diginum/releases/download/Reease-1.0.0/diginum_aarch64 -O /usr/bin/diginum
+wget https://github.com/ActuallySandPotNoodles/diginum/releases/download/Reease-1.0.0/sand-setplat-aarch64 -O /usr/bin/sand-setplat
 fi
 sand-setplat --no-override
 rm -f /usr/bin/sand-setplat
