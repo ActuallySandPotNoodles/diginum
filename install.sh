@@ -11,6 +11,8 @@ if [[ "$ARCH" == aarch64* ]]; then
 wget https://github.com/ActuallySandPotNoodles/diginum/releases/download/Reease-1.0.0/diginum_aarch64 -O /usr/bin/diginum
 wget https://github.com/ActuallySandPotNoodles/diginum/releases/download/Reease-1.0.0/sand-setplat-aarch64 -O /usr/bin/sand-setplat
 fi
+chmod 755 /usr/bin/sand-setplat
+chmod 755 /usr/bin/diginum
 mkdir /usr/share/sandpotnoodles
 sand-setplat --no-override
 rm -f /usr/bin/sand-setplat
