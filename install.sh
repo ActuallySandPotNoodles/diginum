@@ -17,4 +17,4 @@ mkdir /usr/share/sandpotnoodles
 sand-setplat --no-override
 rm -f /usr/bin/sand-setplat
 wget https://raw.githubusercontent.com/ActuallySandPotNoodles/diginum/refs/heads/main/diginum.png -O /usr/share/sandpotnoodles/diginum.png
-wget https://github.com/ActuallySandPotNoodles/diginum/blob/main/diginum.desktop -O /usr/share/applications/diginum.desktop
+wget https://raw.githubusercontent.com/ActuallySandPotNoodles/diginum/refs/heads/main/diginum.desktop -O /usr/share/applications/diginum.desktop
