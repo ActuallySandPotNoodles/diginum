@@ -2,11 +2,11 @@ if [[ $EUID -ne 0 ]]; then
    echo "This script must be run as root"
    exit 1
 fi
-if [[ "$ARCH" == x86_64*]]; then
+if [[ "$ARCH" == x86_64*]] then
 wget https://github.com/ActuallySandPotNoodles/diginum/releases/download/Reease-1.0.0/diginum -O /usr/bin/diginum
 wget https://github.com/ActuallySandPotNoodles/diginum/releases/download/Reease-1.0.0/sand-setplat -O /usr/bin/sand-setplat
 fi
-if [[ "$ARCH" == aarch64*]]; then
+if [[ "$ARCH" == aarch64*]] then
 wget https://github.com/ActuallySandPotNoodles/diginum/releases/download/Reease-1.0.0/diginum_aarch64 -O /usr/bin/diginum
 wget https://github.com/ActuallySandPotNoodles/diginum/releases/download/Reease-1.0.0/sand-setplat-aarch64 -O /usr/bin/sand-setplat
 fi
