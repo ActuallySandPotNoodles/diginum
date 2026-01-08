@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+
+Name=Diginum
+Exec=/usr/bin/diginum
+Icon=/usr/share/sandpotnoodles/diginum.png
+
+Comment=Somewhat upgraded version of SandCount
+
+Categories=Utility
+Keywords=mintmix;sandpotnoodles;count;number;mobile;qt6
